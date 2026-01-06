@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Etch-a-Sketch Nx</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>[ Etch-a-Sketch ]</h1>
+  <p>Welcome to the Etch-a-Sketch project!</p>
+  <h2>Every square you touch writes a new story—code, like art, begins with a single stroke.</h2>
+
+  <!-- DASHBOARD -->
+  <div class="dashboard">
+    <label for="gridSize">Grid Size</label>
+    <input
+      type="number"
+      id="gridSize"
+      min="1"
+      max="100"
+      value="16"
+    />
+    <button id="resetBtn">Reset Grid</button>
+  </div>
+
+  <div class="container" id="gridContainer"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
